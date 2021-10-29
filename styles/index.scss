@@ -1,0 +1,30 @@
+@mixin center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-bar {
+    @include center;
+    width: 25vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background-image: linear-gradient(to right, rgb(37, 37, 37), rgb(74, 74, 90), silver);
+    Button {
+        @include center;
+        font-size: 2rem;
+        display: block;
+        width: 25vh;
+        margin: 0.5rem;
+    }
+}
+
+.headers {
+    @include center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 4rem;
+    color: blue;
+    background-color: black;
+    width: 100%;
+}
