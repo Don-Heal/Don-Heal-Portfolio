@@ -19,6 +19,10 @@
         scroll-behavior: smooth
     }
     
+    a {
+        color: antiquewhite;
+    }
+    
     .nav-bar {
         @include center;
         width: 25%;
