@@ -1,0 +1,29 @@
+.hobbies {
+  background-color: #0400ff;
+  justify-content: center;
+  width: 55%;
+  position: absolute;
+  left: 34vw;
+  top: 25vh;
+  margin-top: 200%;
+}
+
+.projects {
+  background-color: #0400ff;
+  justify-content: center;
+  width: 55%;
+  position: absolute;
+  left: 34vw;
+  top: 25vh;
+  margin-top: 300%;
+}
+
+.social {
+  background-color: #0400ff;
+  justify-content: center;
+  width: 55%;
+  position: absolute;
+  left: 34vw;
+  top: 25vh;
+  margin-top: 400%;
+}
