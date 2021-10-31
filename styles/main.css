@@ -4,6 +4,14 @@
   scroll-behavior: smooth;
 }
 
+html,
+body {
+  margin: 0;
+  height: 100%;
+  overflow: hidden;
+  scroll-behavior: smooth;
+}
+
 a {
   color: antiquewhite;
 }
@@ -46,7 +54,6 @@ a {
 }
 
 .experience {
-  background-color: #0400ff;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -57,8 +64,18 @@ a {
   margin-top: 100%;
 }
 
+.experience div {
+  margin-top: 20%;
+  background-color: azure;
+  font-size: 3rem;
+  opacity: 70%;
+}
+
+.experience div a {
+  color: blue;
+}
+
 .hobbies {
-  background-color: #0400ff;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -70,7 +87,6 @@ a {
 }
 
 .projects {
-  background-color: #0400ff;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -82,7 +98,6 @@ a {
 }
 
 .social {
-  background-color: #0400ff;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -97,16 +112,34 @@ a {
   position: fixed;
   top: 0%;
   left: 0%;
-  z-index: -1;
+  z-index: -4;
 }
 
 .backround-img img {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
   width: 100vw;
   height: 100vh;
+}
+
+.home h3 {
+  margin-left: 1%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
+  position: fixed;
+  color: white;
+}
+
+.profile-img {
+  height: 55vh;
+  width: 55vh;
+  margin-left: 25%;
+  border-radius: 50%;
+  margin-top: 15%;
+}
+
+.intro {
+  margin-left: 60%;
+  margin-top: -22.5%;
+  color: white;
+  font-size: 2rem;
 }
 /*# sourceMappingURL=main.css.map */

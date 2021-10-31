@@ -1,6 +1,6 @@
 * {
   margin: 0;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
   scroll-behavior: smooth;
 }
 
@@ -17,36 +17,22 @@ a {
 }
 
 .nav-bar {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
   width: 25%;
   min-height: 100vh;
   top: 0;
   left: 0;
   position: fixed;
 }
-
 .nav-bar ul {
   list-style-type: none;
 }
-
 .nav-bar a {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
   text-decoration: none;
   font-weight: bold;
   font-size: xx-large;
@@ -54,31 +40,25 @@ a {
 }
 
 .experience {
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
   width: 55%;
   position: absolute;
   left: 34vw;
   top: 25vh;
   margin-top: 100%;
 }
-
 .experience div {
   margin-top: 20%;
   background-color: azure;
   font-size: 3rem;
   opacity: 70%;
 }
-
 .experience div a {
   color: blue;
 }
 
 .hobbies {
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
   width: 55%;
   position: absolute;
   left: 34vw;
@@ -87,9 +67,7 @@ a {
 }
 
 .projects {
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
   width: 55%;
   position: absolute;
   left: 34vw;
@@ -98,9 +76,7 @@ a {
 }
 
 .social {
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
   width: 55%;
   position: absolute;
   left: 34vw;
@@ -114,7 +90,6 @@ a {
   left: 0%;
   z-index: -4;
 }
-
 .backround-img img {
   width: 100vw;
   height: 100vh;
@@ -142,4 +117,3 @@ a {
   color: white;
   font-size: 2rem;
 }
-/*# sourceMappingURL=index.css.map */

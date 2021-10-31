@@ -1,90 +1,116 @@
-    @mixin center {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    
-    @mixin content-center {
-        background-color: rgb(4, 0, 255);
-        justify-content: center;
-        width: 55%;
-        position: absolute;
-        left: 34vw;
-        top: 25vh;
-    }
-    
-    * {
-        margin: 0;
-        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-        scroll-behavior: smooth
-    }
-    
-    a {
-        color: antiquewhite;
-    }
-    
-    .nav-bar {
-        @include center;
-        width: 25%;
-        min-height: 100vh;
-        top: 0;
-        left: 0;
-        position: fixed;
-        ul {
-            list-style-type: none;
-        }
-        a {
-            @include center;
-            text-decoration: none;
-            font-weight: bold;
-            font-size: xx-large;
-            margin: 50%;
-        }
-    }
-    
-    // .headers {
-    //     @include center;
-    //     font-size: 4rem;
-    //     color: blue;
-    //     background-color: black;
-    //     width: 100%;
-    //     position: absolute;
-    //     left: 13%;
-    //     transform: scale(.75);
-    //     margin-top: 10%;
-    // }
-    .experience {
-        @include content-center;
-        margin-top: 100%;
-    }
-    
-    .hobbies {
-        @include content-center;
-        margin-top: 200%;
-    }
-    
-    .projects {
-        @include content-center;
-        margin-top: 300%;
-    }
-    
-    .social {
-        @include content-center;
-        margin-top: 400%;
-    }
-    
-    .backround-img {
-        position: fixed;
-        top: 0%;
-        left: 0%;
-        z-index: -1;
-        img {
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            bottom: 0;
-            width: 100vw;
-            height: 100vh;
-        }
-    }
+   @mixin center {
+       display: flex;
+       justify-content: center;
+       align-items: center;
+   }
+   
+   @mixin content-center {
+       //    background-color: rgb(4, 0, 255);
+       justify-content: center;
+       width: 55%;
+       position: absolute;
+       left: 34vw;
+       top: 25vh;
+   }
+   
+   * {
+       margin: 0;
+       font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+       scroll-behavior: smooth
+   }
+   
+   html,
+   body {
+       margin: 0;
+       height: 100%;
+       overflow: hidden;
+       scroll-behavior: smooth;
+   }
+   
+   a {
+       color: antiquewhite;
+   }
+   
+   .nav-bar {
+       @include center;
+       width: 25%;
+       min-height: 100vh;
+       top: 0;
+       left: 0;
+       position: fixed;
+       ul {
+           list-style-type: none;
+       }
+       a {
+           @include center;
+           text-decoration: none;
+           font-weight: bold;
+           font-size: xx-large;
+           margin: 50%;
+       }
+   }
+   
+   .experience {
+       @include content-center;
+       margin-top: 100%;
+       div {
+           margin-top: 20%;
+           background-color: azure;
+           font-size: 3rem;
+           opacity: 70%;
+           a {
+               color: blue
+           }
+       }
+   }
+   
+   .hobbies {
+       @include content-center;
+       margin-top: 200%;
+   }
+   
+   .projects {
+       @include content-center;
+       margin-top: 300%;
+   }
+   
+   .social {
+       @include content-center;
+       margin-top: 400%;
+   }
+   
+   .backround-img {
+       position: fixed;
+       top: 0%;
+       left: 0%;
+       z-index: -4;
+       img {
+           width: 100vw;
+           height: 100vh;
+       }
+   }
+   
+   .home {
+       h3 {
+           margin-left: 1%;
+           font-family: Arial, Helvetica, sans-serif;
+           font-size: large;
+           position: fixed;
+           color: white;
+       }
+   }
+   
+   .profile-img {
+       height: 55vh;
+       width: 55vh;
+       margin-left: 25%;
+       border-radius: 50%;
+       margin-top: 15%;
+   }
+   
+   .intro {
+       margin-left: 60%;
+       margin-top: -22.5%;
+       color: white;
+       font-size: 2rem;
+   }
