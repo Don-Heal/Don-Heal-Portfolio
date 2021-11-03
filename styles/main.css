@@ -108,18 +108,6 @@ a {
   margin-top: 400%;
 }
 
-.backround-img {
-  position: fixed;
-  top: 0%;
-  left: 0%;
-  z-index: -4;
-}
-
-.backround-img img {
-  width: 100vw;
-  height: 100vh;
-}
-
 .home h3 {
   margin-left: 1%;
   font-family: Arial, Helvetica, sans-serif;
@@ -128,18 +116,30 @@ a {
   color: white;
 }
 
+.intro {
+  margin-left: 60%;
+  margin-top: -22.5%;
+  color: white;
+  font-size: 2rem;
+}
+
+.landing-img {
+  position: fixed;
+  top: 0%;
+  left: 0%;
+  z-index: -1;
+}
+
+.landing-img img {
+  width: 100vw;
+  height: 100vh;
+}
+
 .profile-img {
   height: 55vh;
   width: 55vh;
   margin-left: 25%;
   border-radius: 50%;
   margin-top: 15%;
-}
-
-.intro {
-  margin-left: 60%;
-  margin-top: -22.5%;
-  color: white;
-  font-size: 2rem;
 }
 /*# sourceMappingURL=main.css.map */

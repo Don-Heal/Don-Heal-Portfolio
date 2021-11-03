@@ -79,17 +79,6 @@
        margin-top: 400%;
    }
    
-   .backround-img {
-       position: fixed;
-       top: 0%;
-       left: 0%;
-       z-index: -4;
-       img {
-           width: 100vw;
-           height: 100vh;
-       }
-   }
-   
    .home {
        h3 {
            margin-left: 1%;
@@ -98,14 +87,6 @@
            position: fixed;
            color: white;
        }
-   }
-   
-   .profile-img {
-       height: 55vh;
-       width: 55vh;
-       margin-left: 25%;
-       border-radius: 50%;
-       margin-top: 15%;
    }
    
    .intro {
