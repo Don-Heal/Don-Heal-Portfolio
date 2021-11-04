@@ -11,6 +11,7 @@
   background-color: azure;
   font-size: 250%;
   opacity: 70%;
+  border: 2vw solid azure;
 }
 .projects div a {
   color: blue;
@@ -19,6 +20,20 @@
   text-decoration: underline;
 }
 
+@media only screen and (max-width: 3000px) {
+  .projects {
+    font-size: 80%;
+    margin-top: 300vh;
+    padding-top: 5vh;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .projects {
+    font-size: 60%;
+    margin-top: 300vh;
+    padding-top: 20vh;
+  }
+}
 @media only screen and (max-width: 600px) {
   .projects {
     font-size: 40%;

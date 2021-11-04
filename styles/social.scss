@@ -7,3 +7,35 @@
         margin-top: 0px;
     }
 }
+
+@media only screen and (max-width: 3000px) {
+    .social {
+        img {
+            height: 100%;
+            width: 40vw;
+            margin-top: 20vh;
+        }
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .social {
+        img {
+            height: 100%;
+            width: 55vw;
+            margin-top: 20vh;
+            padding-bottom: 80%;
+        }
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .social {
+        img {
+            height: 100%;
+            width: 55vw;
+            margin-top: 40vh;
+            padding-bottom: 50vh;
+        }
+    }
+}

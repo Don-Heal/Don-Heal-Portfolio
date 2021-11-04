@@ -30,16 +30,41 @@ a {
         @include center;
         text-decoration: none;
         font-weight: bold;
-        font-size: xx-large;
+        font-size: 2rem;
         margin: 50%;
     }
 }
 
 .intro {
     margin-left: 60%;
-    margin-top: -18%;
     color: white;
     font-size: 2rem;
+}
+
+@media only screen and (max-width: 3000px) {
+    .nav-bar {
+        a {
+            font-size: 2vW;
+        }
+    }
+    .intro {
+        font-size: 2vw;
+        margin-top: -25%;
+        margin-left: 70%;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .nav-bar {
+        a {
+            font-size: 150%;
+        }
+    }
+    .intro {
+        font-size: 2vw;
+        margin-top: -25%;
+        margin-left: 70%;
+    }
 }
 
 @media only screen and (max-width: 600px) {
@@ -49,16 +74,8 @@ a {
         }
     }
     .intro {
-        font-size: 85%;
-        margin-top: 15%;
+        font-size: 2vh;
+        margin-top: 2vh;
         margin-left: 40%;
     }
 }
-
-@media only screen and (min-width: 600px) {}
-
-@media only screen and (min-width: 768px) {}
-
-@media only screen and (min-width: 992px) {}
-
-@media only screen and (min-width: 1200px) {}
