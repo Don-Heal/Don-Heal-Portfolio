@@ -4,15 +4,15 @@
           justify-content: center;
   width: 55%;
   position: absolute;
-  left: 34vw;
-  top: 25vh;
-  margin-top: 400%;
+  left: 34%;
+  top: 25%;
+  margin-top: 400vh;
 }
 
 .social div {
   margin-top: 20%;
   background-color: azure;
-  font-size: 3rem;
+  font-size: 250%;
   opacity: 70%;
   margin-top: 0px;
 }

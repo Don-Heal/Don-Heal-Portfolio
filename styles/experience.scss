@@ -1,8 +1,16 @@
 @import "mixin";
 .experience {
     @include content-center;
-    margin-top: 100%;
+    margin-top: 100vh;
     div {
         @include landing-content;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .experience {
+        font-size: 40%;
+        margin-top: 100vh;
+        padding-top: 30vh;
     }
 }

@@ -4,15 +4,15 @@
           justify-content: center;
   width: 55%;
   position: absolute;
-  left: 34vw;
-  top: 25vh;
-  margin-top: 100%;
+  left: 34%;
+  top: 25%;
+  margin-top: 100vh;
 }
 
 .experience div {
   margin-top: 20%;
   background-color: azure;
-  font-size: 3rem;
+  font-size: 250%;
   opacity: 70%;
 }
 
@@ -22,5 +22,13 @@
 
 .experience div h1 {
   text-decoration: underline;
+}
+
+@media only screen and (max-width: 600px) {
+  .experience {
+    font-size: 40%;
+    margin-top: 100vh;
+    padding-top: 30vh;
+  }
 }
 /*# sourceMappingURL=experience.css.map */

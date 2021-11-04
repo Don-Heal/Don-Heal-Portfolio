@@ -5,8 +5,7 @@
     scroll-behavior: smooth
 }
 
-html,
-body {
+html body {
     margin: 0;
     height: 100%;
     overflow: hidden;
@@ -20,7 +19,7 @@ a {
 .nav-bar {
     @include center;
     width: 25%;
-    min-height: 100vh;
+    min-height: 100%;
     top: 0;
     left: 0;
     position: fixed;
@@ -42,3 +41,24 @@ a {
     color: white;
     font-size: 2rem;
 }
+
+@media only screen and (max-width: 600px) {
+    .nav-bar {
+        a {
+            font-size: 100%;
+        }
+    }
+    .intro {
+        font-size: 85%;
+        margin-top: 15%;
+        margin-left: 40%;
+    }
+}
+
+@media only screen and (min-width: 600px) {}
+
+@media only screen and (min-width: 768px) {}
+
+@media only screen and (min-width: 992px) {}
+
+@media only screen and (min-width: 1200px) {}

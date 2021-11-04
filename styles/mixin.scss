@@ -9,15 +9,16 @@
     justify-content: center;
     width: 55%;
     position: absolute;
-    left: 34vw;
-    top: 25vh;
+    left: 34%;
+    top: 25%;
 }
 
 @mixin landing-content {
     margin-top: 20%;
     background-color: azure;
-    font-size: 3rem;
+    font-size: 250%;
     opacity: 70%;
+    border: 2vw solid azure;
     a {
         color: blue
     }
