@@ -1,0 +1,20 @@
+.experience {
+  justify-content: center;
+  width: 55%;
+  position: absolute;
+  left: 34vw;
+  top: 25vh;
+  margin-top: 100%;
+}
+.experience div {
+  margin-top: 20%;
+  background-color: azure;
+  font-size: 3rem;
+  opacity: 70%;
+}
+.experience div a {
+  color: blue;
+}
+.experience div h1 {
+  text-decoration: underline;
+}

@@ -1,0 +1,20 @@
+.hobbies {
+  justify-content: center;
+  width: 55%;
+  position: absolute;
+  left: 34vw;
+  top: 25vh;
+  margin-top: 200%;
+}
+.hobbies div {
+  margin-top: 20%;
+  background-color: azure;
+  font-size: 3rem;
+  opacity: 70%;
+}
+.hobbies div a {
+  color: blue;
+}
+.hobbies div h1 {
+  text-decoration: underline;
+}

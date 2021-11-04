@@ -1,0 +1,8 @@
+@import "mixin";
+.experience {
+    @include content-center;
+    margin-top: 100%;
+    div {
+        @include landing-content;
+    }
+}

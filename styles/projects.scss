@@ -1,0 +1,8 @@
+@import "mixin";
+.projects {
+    @include content-center;
+    margin-top: 300%;
+    div {
+        @include landing-content;
+    }
+}

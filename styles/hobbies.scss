@@ -1,0 +1,8 @@
+@import "mixin";
+.hobbies {
+    @include content-center;
+    margin-top: 200%;
+    div {
+        @include landing-content;
+    }
+}

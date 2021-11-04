@@ -1,0 +1,9 @@
+@import "mixin";
+.social {
+    @include content-center;
+    margin-top: 400%;
+    div {
+        @include landing-content;
+        margin-top: 0px;
+    }
+}
