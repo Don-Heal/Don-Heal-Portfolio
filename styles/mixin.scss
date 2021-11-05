@@ -5,7 +5,6 @@
 }
 
 @mixin content-center {
-    //    background-color: rgb(4, 0, 255);
     justify-content: center;
     width: 55%;
     position: absolute;
@@ -25,4 +24,9 @@
     h1 {
         text-decoration: underline;
     }
+}
+
+@mixin font-style {
+    font-style: italic;
+    font-weight: bold;
 }
