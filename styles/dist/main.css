@@ -167,72 +167,117 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
-  flex-wrap: wrap;
-  justify-content: center;
-  margin-top: -8%;
-  margin-left: 20%;
-  width: 50%;
-}
-.exp-content div {
   margin-top: 20%;
   background-color: azure;
   font-size: 250%;
   opacity: 70%;
   border: 2vw solid azure;
+  margin-left: 20%;
+  margin-top: 5%;
+  max-width: 50%;
+  flex-direction: column;
+  font-size: 60%;
 }
-.exp-content div a {
+.exp-content a {
   color: blue;
 }
-.exp-content div h1 {
+.exp-content h1 {
   text-decoration: underline;
 }
-.exp-content .exp-list {
-  margin-top: 1%;
-  margin-left: 0vw;
-  font-size: medium;
+.exp-content h1 {
+  font-size: 5em;
 }
-.exp-content .exp-list h2 {
+.exp-content h2 {
+  font-size: 3em;
   font-style: italic;
   font-weight: bold;
 }
-.exp-content .exp-list p {
-  font-size: medium;
+.exp-content p {
+  font-size: 2em;
+}
+.exp-content div {
+  margin: 2%;
 }
 
-.resume-div {
+.resume {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: -30%;
   margin-left: 75%;
-  border-radius: 50%;
+  margin-top: -30%;
 }
-.resume-div .resume img {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.resume img {
   height: 35%;
   width: 20vw;
   border-radius: 50%;
   border: 5px solid azure;
 }
-.resume-div .resume div {
-  text-align: center;
+.resume h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-@media only screen and (max-width: 3000px) {
-  .experience {
-    font-size: 80%;
-    margin-top: 100vh;
-    padding-top: 5vh;
-  }
-}
 @media only screen and (max-width: 1024px) {
   .experience {
     font-size: 60%;
     margin-top: 70vh;
     padding-top: 20vh;
+  }
+
+  .exp-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20%;
+    background-color: azure;
+    font-size: 250%;
+    opacity: 70%;
+    border: 2vw solid azure;
+    margin-left: 20%;
+    margin-top: 10%;
+    max-width: 50%;
+    flex-direction: column;
+    font-size: 60%;
+  }
+  .exp-content a {
+    color: blue;
+  }
+  .exp-content h1 {
+    text-decoration: underline;
+  }
+  .exp-content h1 {
+    font-size: 6em;
+  }
+  .exp-content h2 {
+    font-size: 4em;
+    font-style: italic;
+    font-weight: bold;
+  }
+  .exp-content p {
+    font-size: 2em;
+  }
+  .exp-content div {
+    margin: 2%;
+  }
+
+  .resume {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 75%;
+    margin-top: -30%;
+  }
+  .resume img {
+    height: 35%;
+    width: 20vw;
+    border-radius: 50%;
+    border: 5px solid azure;
+  }
+  .resume h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }
 @media only screen and (max-width: 600px) {
@@ -243,26 +288,58 @@ a {
   }
 
   .exp-content {
-    margin-top: 5%;
+    display: flex;
     justify-content: center;
-    font-size: 70%;
-    width: 45vw;
-    height: auto;
+    align-items: center;
+    margin-top: 20%;
+    background-color: azure;
+    font-size: 250%;
+    opacity: 70%;
+    border: 2vw solid azure;
+    margin-left: 25%;
+    margin-top: 32%;
+    max-width: 65%;
+    flex-direction: column;
+    font-size: 60%;
   }
-  .exp-content .exp-list {
-    width: 120%;
-    align-items: stretch;
-    font-size: 100%;
+  .exp-content a {
+    color: blue;
   }
-  .exp-content .exp-list p {
-    font-size: 100%;
+  .exp-content h1 {
+    text-decoration: underline;
+  }
+  .exp-content h1 {
+    font-size: 3.8em;
+  }
+  .exp-content h2 {
+    font-size: 1.8em;
+    font-style: italic;
+    font-weight: bold;
+  }
+  .exp-content p {
+    font-size: 0.8em;
+  }
+  .exp-content div {
+    margin: 2%;
   }
 
-  .resume-div img {
-    visibility: hidden;
+  .resume {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20%;
+    margin-top: 5%;
   }
-  .resume-div div {
-    margin-top: 20%;
+  .resume img {
+    height: 35%;
+    width: 20vw;
+    border-radius: 50%;
+    border: 5px solid azure;
+  }
+  .resume h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }
 .hobbies {
@@ -287,18 +364,67 @@ a {
   text-decoration: underline;
 }
 
-@media only screen and (max-width: 3000px) {
-  .hobbies {
-    font-size: 80%;
-    margin-top: 200vh;
-    padding-top: 5vh;
-  }
+.hob-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20%;
+  background-color: azure;
+  font-size: 250%;
+  opacity: 70%;
+  border: 2vw solid azure;
+  margin-left: 20%;
+  margin-top: 5%;
+  max-width: 50%;
+  flex-direction: column;
+  font-size: 60%;
 }
+.hob-content a {
+  color: blue;
+}
+.hob-content h1 {
+  text-decoration: underline;
+}
+.hob-content h1 {
+  font-size: 5em;
+}
+.hob-content h2 {
+  font-size: 3em;
+  font-style: italic;
+  font-weight: bold;
+}
+.hob-content p {
+  font-size: 2em;
+}
+.hob-content div {
+  margin: 2%;
+}
+
 @media only screen and (max-width: 1024px) {
   .hobbies {
     font-size: 60%;
     margin-top: 200vh;
     padding-top: 20vh;
+  }
+
+  .hob-content {
+    min-width: 60%;
+    font-size: 70%;
+    margin-left: 30%;
+  }
+  .hob-content h1 {
+    font-size: 4em;
+  }
+  .hob-content h2 {
+    font-size: 3em;
+    font-style: italic;
+    font-weight: bold;
+  }
+  .hob-content p {
+    font-size: 2em;
+  }
+  .hob-content div {
+    margin: 2%;
   }
 }
 @media only screen and (max-width: 600px) {
@@ -306,6 +432,25 @@ a {
     font-size: 40%;
     margin-top: 200vh;
     padding-top: 30vh;
+  }
+
+  .hob-content {
+    min-width: 60%;
+    margin-top: 10%;
+  }
+  .hob-content h1 {
+    font-size: 3.3em;
+  }
+  .hob-content h2 {
+    font-size: 2.3em;
+    font-style: italic;
+    font-weight: bold;
+  }
+  .hob-content p {
+    font-size: 1.3em;
+  }
+  .hob-content div {
+    margin: 2%;
   }
 }
 .projects {
