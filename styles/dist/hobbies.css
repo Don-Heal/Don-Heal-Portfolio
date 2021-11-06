@@ -64,9 +64,8 @@
   }
 
   .hob-content {
-    min-width: 60%;
-    font-size: 70%;
-    margin-left: 30%;
+    font-size: 60%;
+    margin-left: 40%;
   }
   .hob-content h1 {
     font-size: 4em;
@@ -83,7 +82,7 @@
     margin: 2%;
   }
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1024px) and (max-width: 600px) {
   .hobbies {
     font-size: 40%;
     margin-top: 200vh;
@@ -91,19 +90,18 @@
   }
 
   .hob-content {
-    min-width: 60%;
     margin-top: 10%;
   }
   .hob-content h1 {
-    font-size: 3.3em;
+    font-size: 3em;
   }
   .hob-content h2 {
-    font-size: 2.3em;
+    font-size: 2em;
     font-style: italic;
     font-weight: bold;
   }
   .hob-content p {
-    font-size: 1.3em;
+    font-size: 1em;
   }
   .hob-content div {
     margin: 2%;

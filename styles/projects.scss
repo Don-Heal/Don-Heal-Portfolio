@@ -7,6 +7,12 @@
     }
 }
 
+.proj-content {
+    @include center;
+    @include landing-content;
+    @include page-content;
+}
+
 @media only screen and (max-width: 3000px) {
     .projects {
         font-size: 80%;
@@ -21,6 +27,9 @@
         margin-top: 300vh;
         padding-top: 20vh;
     }
+    .proj-content {
+        @include page-content-1024;
+    }
 }
 
 @media only screen and (max-width: 600px) {
@@ -28,5 +37,8 @@
         font-size: 40%;
         margin-top: 300vh;
         padding-top: 30vh;
+    }
+    .proj-content {
+        @include page-content-600;
     }
 }

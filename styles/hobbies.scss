@@ -1,82 +1,35 @@
-@import "mixin";
-.hobbies {
-    @include content-center;
-    margin-top: 200vh;
-    div {
+    @import "mixin";
+    .hobbies {
+        @include content-center;
+        margin-top: 200vh;
+        div {
+            @include landing-content;
+        }
+    }
+    
+    .hob-content {
+        @include center;
         @include landing-content;
+        @include page-content;
     }
-}
-
-.hob-content {
-    @include center;
-    @include landing-content;
-    margin-left: 20%;
-    margin-top: 5%;
-    max-width: 50%;
-    flex-direction: column;
-    font-size: 60%;
-    h1 {
-        font-size: 5em;
-    }
-    h2 {
-        font-size: 3em;
-        @include font-style;
-    }
-    p {
-        font-size: 2em
-    }
-    div {
-        margin: 2%;
-    }
-}
-
-@media only screen and (max-width: 1024px) {
-    .hobbies {
-        font-size: 60%;
-        margin-top: 200vh;
-        padding-top: 20vh;
-    }
-    .hob-content {
-        min-width: 60%;
-        font-size: 70%;
-        margin-left: 30%;
-        h1 {
-            font-size: 4em;
+    
+    @media only screen and (max-width: 1024px) {
+        .hobbies {
+            font-size: 60%;
+            margin-top: 200vh;
+            padding-top: 20vh;
         }
-        h2 {
-            font-size: 3em;
-            @include font-style;
+        .hob-content {
+            @include page-content-1024;
         }
-        p {
-            font-size: 2em
-        }
-        div {
-            margin: 2%;
+        @media only screen and (max-width: 600px) {
+            .hobbies {
+                font-size: 40%;
+                margin-top: 200vh;
+                padding-top: 30vh;
+            }
+            .hob-content {
+                @include page-content-600;
+            }
         }
     }
-}
-
-@media only screen and (max-width: 600px) {
-    .hobbies {
-        font-size: 40%;
-        margin-top: 200vh;
-        padding-top: 30vh;
-    }
-    .hob-content {
-        min-width: 60%;
-        margin-top: 10%;
-        h1 {
-            font-size: 3.3em;
-        }
-        h2 {
-            font-size: 2.3em;
-            @include font-style;
-        }
-        p {
-            font-size: 1.3em
-        }
-        div {
-            margin: 2%;
-        }
-    }
-}
