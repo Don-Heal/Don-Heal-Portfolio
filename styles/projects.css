@@ -91,8 +91,9 @@
     padding-top: 20vh;
   }
   .proj-content {
-    font-size: 70%;
-    margin-left: 40%;
+    min-width: 60%;
+    font-size: 50%;
+    margin-left: 30%;
   }
   .proj-content h1 {
     font-size: 4em;
@@ -117,6 +118,8 @@
     padding-top: 30vh;
   }
   .proj-content {
+    min-width: 65%;
+    font-size: 65%;
     margin-top: 10%;
   }
   .proj-content h1 {

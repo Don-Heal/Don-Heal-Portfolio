@@ -64,8 +64,9 @@
   }
 
   .hob-content {
-    font-size: 60%;
-    margin-left: 40%;
+    min-width: 60%;
+    font-size: 50%;
+    margin-left: 30%;
   }
   .hob-content h1 {
     font-size: 4em;
@@ -90,6 +91,8 @@
   }
 
   .hob-content {
+    min-width: 65%;
+    font-size: 65%;
     margin-top: 10%;
   }
   .hob-content h1 {
