@@ -11,6 +11,9 @@
         @include center;
         @include landing-content;
         @include page-content;
+        a {
+            font-size: x-large;
+        }
     }
     
     @media only screen and (max-width: 1024px) {
