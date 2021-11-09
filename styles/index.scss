@@ -39,6 +39,9 @@ a {
     margin-left: 60%;
     color: white;
     font-size: 2rem;
+    h2 {
+        font-size: 80%;
+    }
 }
 
 @media only screen and (max-width: 3000px) {
@@ -51,6 +54,9 @@ a {
         font-size: 2vw;
         margin-top: -25%;
         margin-left: 70%;
+        h2 {
+            font-size: 80%;
+        }
     }
 }
 
@@ -64,6 +70,9 @@ a {
         font-size: 2vw;
         margin-top: -25%;
         margin-left: 70%;
+        h2 {
+            font-size: 80%;
+        }
     }
 }
 
@@ -77,5 +86,8 @@ a {
         font-size: 2vh;
         margin-top: 2vh;
         margin-left: 40%;
+        h2 {
+            font-size: 80%;
+        }
     }
 }
