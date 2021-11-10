@@ -1,10 +1,12 @@
 @import "mixin";
+// defulting whole page content to on styling and resetting all margins to start at 0, defining scroll behaviour
 * {
     margin: 0;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     scroll-behavior: smooth
 }
 
+// no scroll html body use of nav only
 html body {
     margin: 0;
     height: 100%;
@@ -36,7 +38,8 @@ a {
 }
 
 .intro {
-    margin-left: 60%;
+    margin-left: 70%;
+    margin-top: -15%;
     color: white;
     font-size: 2rem;
     h2 {
@@ -44,22 +47,7 @@ a {
     }
 }
 
-@media only screen and (max-width: 3000px) {
-    .nav-bar {
-        a {
-            font-size: 2vW;
-        }
-    }
-    .intro {
-        font-size: 2vw;
-        margin-top: -25%;
-        margin-left: 70%;
-        h2 {
-            font-size: 80%;
-        }
-    }
-}
-
+// resizing for smaller screens
 @media only screen and (max-width: 1024px) {
     .nav-bar {
         a {
@@ -76,6 +64,7 @@ a {
     }
 }
 
+// resizing for smaller screens
 @media only screen and (max-width: 600px) {
     .nav-bar {
         a {

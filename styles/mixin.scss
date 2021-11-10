@@ -1,3 +1,4 @@
+// main mixin's for centering the content
 @mixin center {
     display: flex;
     justify-content: center;
@@ -26,6 +27,7 @@
     }
 }
 
+// mixins for pages and styling 
 @mixin font-style {
     font-style: italic;
     font-weight: bold;
@@ -52,6 +54,7 @@
     }
 }
 
+// mixins for content from 600px and below
 @mixin page-content-600 {
     min-width: 65%;
     font-size: 65%;
@@ -71,9 +74,10 @@
     }
 }
 
+// mixins for content from 1024px and below
 @mixin page-content-1024 {
     min-width: 60%;
-    font-size: 50%;
+    font-size: 45%;
     margin-left: 30%;
     h1 {
         font-size: 4em;

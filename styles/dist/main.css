@@ -39,7 +39,8 @@ a {
 }
 
 .intro {
-  margin-left: 60%;
+  margin-left: 70%;
+  margin-top: -15%;
   color: white;
   font-size: 2rem;
 }
@@ -47,20 +48,6 @@ a {
   font-size: 80%;
 }
 
-@media only screen and (max-width: 3000px) {
-  .nav-bar a {
-    font-size: 2vW;
-  }
-
-  .intro {
-    font-size: 2vw;
-    margin-top: -25%;
-    margin-left: 70%;
-  }
-  .intro h2 {
-    font-size: 80%;
-  }
-}
 @media only screen and (max-width: 1024px) {
   .nav-bar a {
     font-size: 150%;
@@ -416,15 +403,9 @@ a {
 }
 
 @media only screen and (max-width: 1024px) {
-  .hobbies {
-    font-size: 60%;
-    margin-top: 200vh;
-    padding-top: 20vh;
-  }
-
   .hob-content {
     min-width: 60%;
-    font-size: 50%;
+    font-size: 45%;
     margin-left: 30%;
   }
   .hob-content h1 {
@@ -442,13 +423,7 @@ a {
     margin: 2%;
   }
 }
-@media only screen and (max-width: 1024px) and (max-width: 600px) {
-  .hobbies {
-    font-size: 40%;
-    margin-top: 200vh;
-    padding-top: 30vh;
-  }
-
+@media only screen and (max-width: 600px) {
   .hob-content {
     min-width: 65%;
     font-size: 65%;
@@ -543,7 +518,7 @@ a {
 
   .proj-content {
     min-width: 60%;
-    font-size: 50%;
+    font-size: 45%;
     margin-left: 30%;
   }
   .proj-content h1 {
