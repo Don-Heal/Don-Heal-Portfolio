@@ -681,7 +681,7 @@ a {
   position: absolute;
   left: 34%;
   top: 25%;
-  margin-top: 400%;
+  margin-top: 200%;
   padding-top: 6%;
 }
 
@@ -712,7 +712,88 @@ a {
   height: 25vh;
 }
 
+@media only screen and (max-width: 1024px) {
+  .social {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 55%;
+    position: absolute;
+    left: 34%;
+    top: 25%;
+    margin-top: 580%;
+    padding-bottom: 15%;
+  }
+  .social img {
+    width: 60vw;
+    height: 50vh;
+  }
+}
+
+.social-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  max-width: 100%;
+  gap: 2%;
+  margin-top: 15%;
+  margin-left: 15%;
+}
+
+.social-content img {
+  width: 60vw;
+  height: 25vh;
+}
+
 @media only screen and (max-width: 600px) {
+  .social {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 55%;
+    position: absolute;
+    left: 34%;
+    top: 25%;
+    margin-top: 1080%;
+    padding-bottom: 55%;
+  }
+  .social img {
+    width: 55vw;
+    height: 30vh;
+  }
+  .social-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    max-width: 100%;
+    gap: 2%;
+    margin-top: 15%;
+    margin-left: 15%;
+  }
   .social-content img {
     width: 60vw;
     height: 25vh;
