@@ -26,15 +26,6 @@
 }
 
 .exp-content {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   margin-top: 20%;
   background-color: azure;
   font-size: 250%;
@@ -77,15 +68,6 @@
 }
 
 .resume {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   margin-left: 75%;
   margin-top: -30%;
 }
@@ -98,15 +80,7 @@
 }
 
 .resume h2 {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  margin-left: 30%;
 }
 
 @media only screen and (max-width: 1024px) {
@@ -116,28 +90,19 @@
     padding-top: 20vh;
   }
   .exp-content {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
     margin-top: 20%;
     background-color: azure;
     font-size: 250%;
     opacity: 70%;
     border: 2vw solid azure;
-    margin-left: 20%;
+    margin-left: 22%;
     margin-top: 10%;
     max-width: 50%;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    font-size: 60%;
+    font-size: 50%;
   }
   .exp-content a {
     color: blue;
@@ -160,16 +125,7 @@
     margin: 2%;
   }
   .resume {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    margin-left: 75%;
+    margin-left: 78%;
     margin-top: -30%;
   }
   .resume img {
@@ -179,34 +135,17 @@
     border: 5px solid azure;
   }
   .resume h2 {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    margin-left: 25%;
   }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1024px) and (max-width: 600px) {
   .experience {
     font-size: 40%;
     margin-top: 100vh;
     padding-top: 30vh;
   }
   .exp-content {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
     margin-top: 20%;
     background-color: azure;
     font-size: 250%;
@@ -219,7 +158,7 @@
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    font-size: 60%;
+    font-size: 62%;
   }
   .exp-content a {
     color: blue;
@@ -242,16 +181,7 @@
     margin: 2%;
   }
   .resume {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    margin-left: 20%;
+    margin-left: 48%;
     margin-top: 5%;
   }
   .resume img {
@@ -261,15 +191,7 @@
     border: 5px solid azure;
   }
   .resume h2 {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    margin-left: 0%;
   }
 }
 /*# sourceMappingURL=experience.css.map */
