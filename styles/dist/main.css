@@ -378,7 +378,7 @@ a {
 @media only screen and (max-width: 1024px) {
   .hobbies {
     font-size: 60%;
-    margin-top: 140vh;
+    margin-top: 200vh;
     padding-top: 20vh;
   }
 
@@ -490,12 +490,31 @@ a {
   font-size: 250%;
   opacity: 70%;
   border: 2vw solid azure;
+  margin-left: 30%;
+  margin-top: 5%;
+  max-width: 50%;
+  flex-direction: column;
+  font-size: 60%;
 }
 .proj-content a {
   color: blue;
 }
 .proj-content h1 {
   text-decoration: underline;
+}
+.proj-content h1 {
+  font-size: 6em;
+}
+.proj-content h2 {
+  font-size: 4em;
+  font-style: italic;
+  font-weight: bold;
+}
+.proj-content p {
+  font-size: 2em;
+}
+.proj-content div {
+  margin: 2%;
 }
 
 @media only screen and (max-width: 1024px) {
@@ -511,7 +530,7 @@ a {
     font-size: 250%;
     opacity: 70%;
     border: 2vw solid azure;
-    margin-left: 20%;
+    margin-left: 30%;
     margin-top: 10%;
     max-width: 50%;
     flex-direction: column;
@@ -551,11 +570,11 @@ a {
     font-size: 250%;
     opacity: 70%;
     border: 2vw solid azure;
-    margin-left: 25%;
+    margin-left: 28%;
     margin-top: 32%;
     max-width: 65%;
     flex-direction: column;
-    font-size: 60%;
+    font-size: 70%;
   }
   .proj-content a {
     color: blue;
