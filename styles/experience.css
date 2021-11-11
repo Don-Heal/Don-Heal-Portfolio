@@ -96,7 +96,7 @@
     opacity: 70%;
     border: 2vw solid azure;
     margin-left: 22%;
-    margin-top: 10%;
+    margin-top: 30%;
     max-width: 50%;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -191,7 +191,7 @@
     border: 5px solid azure;
   }
   .resume h2 {
-    margin-left: 0%;
+    margin-left: 6%;
   }
 }
 /*# sourceMappingURL=experience.css.map */

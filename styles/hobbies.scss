@@ -9,6 +9,24 @@
     
     .hob-content {
         @include landing-content;
+        margin-left: 20%;
+        margin-top: 5%;
+        max-width: 50%;
+        flex-direction: column;
+        font-size: 60%;
+        h1 {
+            font-size: 5em;
+        }
+        h2 {
+            font-size: 3em;
+            @include font-style;
+        }
+        p {
+            font-size: 2em;
+        }
+        div {
+            margin: 2%;
+        }
         a {
             font-size: x-large;
         }
@@ -23,9 +41,9 @@
         }
         .hob-content {
             @include landing-content;
-            margin-left: 20%;
-            margin-top: 10%;
-            max-width: 50%;
+            margin-left: 22%;
+            margin-top: 30%;
+            max-width: 70%;
             flex-direction: column;
             font-size: 60%;
             h1 {
@@ -42,6 +60,9 @@
                 margin: 2%;
             }
         }
+        h2 {
+            font-size: medium;
+        }
     }
     
     // resizing for smaller screens
@@ -54,10 +75,10 @@
         .hob-content {
             @include landing-content;
             margin-left: 25%;
-            margin-top: 32%;
+            margin-top: 30%;
             max-width: 65%;
             flex-direction: column;
-            font-size: 60%;
+            font-size: 75%;
             h1 {
                 font-size: 3.8em;
             }
@@ -70,6 +91,9 @@
             }
             div {
                 margin: 2%;
+            }
+            a {
+                font-size: small;
             }
         }
     }

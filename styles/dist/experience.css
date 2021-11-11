@@ -81,7 +81,7 @@
     opacity: 70%;
     border: 2vw solid azure;
     margin-left: 22%;
-    margin-top: 10%;
+    margin-top: 30%;
     max-width: 50%;
     flex-direction: column;
     font-size: 50%;
@@ -172,6 +172,6 @@
     border: 5px solid azure;
   }
   .resume h2 {
-    margin-left: 0%;
+    margin-left: 6%;
   }
 }
