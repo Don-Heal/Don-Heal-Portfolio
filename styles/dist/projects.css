@@ -26,9 +26,9 @@
   font-size: 250%;
   opacity: 70%;
   border: 2vw solid azure;
-  margin-left: 30%;
+  margin-left: 20%;
   margin-top: 5%;
-  max-width: 50%;
+  max-width: 60%;
   flex-direction: column;
   font-size: 60%;
 }
@@ -39,10 +39,10 @@
   text-decoration: underline;
 }
 .proj-content h1 {
-  font-size: 6em;
+  font-size: 5em;
 }
 .proj-content h2 {
-  font-size: 4em;
+  font-size: 3em;
   font-style: italic;
   font-weight: bold;
 }
@@ -51,6 +51,9 @@
 }
 .proj-content div {
   margin: 2%;
+}
+.proj-content a {
+  font-size: x-large;
 }
 
 @media only screen and (max-width: 1024px) {
@@ -131,5 +134,8 @@
   }
   .proj-content div {
     margin: 2%;
+  }
+  .proj-content a {
+    font-size: small;
   }
 }
